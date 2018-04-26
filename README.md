@@ -16,5 +16,5 @@ leaflet <br />
 https://earthquake.usgs.gov/earthquakes/search/ <br/>
 
 # Screenshot
-![1524781435282](https://user-images.githubusercontent.com/35421157/39335112-dba52f9a-49db-11e8-91e7-5b9305d0004d.jpg)
+![1524782310297](https://user-images.githubusercontent.com/35421157/39335436-4332048e-49dd-11e8-98f1-d6155403e851.jpg)
 
