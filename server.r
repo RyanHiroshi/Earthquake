@@ -25,7 +25,7 @@ min_max_accuracy <- mean(apply(actuals_preds, 1, min) / apply(actuals_preds, 1, 
 mape <- mean(abs((actuals_preds$predicteds - actuals_preds$actuals))/actuals_preds$actuals)
 
 library(DAAG)
-cvResults <- suppressWarnings(CVlm(data=EQ,form.lm=mag ~ depth, m=5, dots=FALSE, seed=41718, legend.pos="topleft",  printit=FALSE, main="Small symbols are predicted values while bigger ones are actuals."));
+cvResults <- suppressWarnings(CVlm(data=trainingData,form.lm=mag ~ depth, m=5, dots=FALSE, seed=41718, legend.pos="topleft",  printit=FALSE, main="Small symbols are predicted values while bigger ones are actuals."));
 attr(cvResults, 'ms')
 
 shinyServer(function(input, output) {
