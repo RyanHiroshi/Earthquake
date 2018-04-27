@@ -9,7 +9,7 @@ EQ=read.csv("query (3).csv")
 
 #http://r-statistics.co/Linear-Regression.html
 	set.seed(41718)
-trainRowIndices <- sample(1:nrow(EQ), 0.8*nrow(cars))
+trainRowIndices <- sample(1:nrow(EQ), 0.8*nrow(EQ))
 trainingData <- EQ[trainRowIndices, ]
 testData <- EQ[-trainRowIndices, ]
 lmMod <- lm(mag ~ depth, data = trainingData)
