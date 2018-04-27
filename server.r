@@ -1,7 +1,7 @@
 library(shiny)
 library(leaflet)
-library(jsonlite)
 EQ=read.csv("query (3).csv")
+
 #Tsunami=read.csv("results (6).csv")
 #EQ=read.csv("C:\\Users\\yupit\\Desktop\\It was rated\\UPH_OR_Planes-master\\query (3).csv")
 
