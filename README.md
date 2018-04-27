@@ -10,6 +10,7 @@ We are trying to make the linear regression in the shiny but the project haven't
 shiny <br />
 shinydashboard <br />
 leaflet <br />
+DAAG <br/>
 
 
 # Earthquake data source
