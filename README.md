@@ -13,7 +13,9 @@ We are trying to make the linear regression in the shiny but the project haven't
 
 # Linear Regression
 The main purpose of linear regression is to model a continuous variable Y as a mathematical funtion of one or more X variable(s). The Linear Regression itself establish a linear relationship between the predictor variable and
-the response variable so we can use the formula to estimate the value of the response when we can only use the predictors (Xs) values that known.
+the response variable so we can use the formula to estimate the value of the response when we can only use the predictors (Xs) values that known.<br/><br/>
+
+The main reason we use Linear Regression is because with Linear Regression it have function to generate all the datas that exist into the graph that we made. The formulas itself will review the value of the data and will calculate the prediction accuracy in the future.
 
 
 # R packages used
@@ -35,7 +37,10 @@ in the code shown, we train and test the data. The reason why we use linear regr
 
 
 ![1524794380923](https://user-images.githubusercontent.com/35421157/39340629-60a85a88-49f9-11e8-9e68-1511fa01ed5f.jpg)<br/>
-in the code shown, we show the prediction of magnitude<br/>
+in the code shown, we show the prediction of magnitude and the actual earthquake magnitude<br/>
+
+![1524797528142](https://user-images.githubusercontent.com/35421157/39342137-b44542f8-4a00-11e8-9c79-f968a7054611.jpg)<br/>
+
 
 
 # Earthquake data source
